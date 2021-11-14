@@ -49,8 +49,8 @@ int pop(node ** head) {
         return -1;
     }
     node* hd = *head;
-    char *c = hd->city;        
-    int data= strlen(c);
+    char *a = hd->city;        
+    int data= strlen(a);
     (*head) = (*head)->next; 
     hd->next = NULL; 
     return data;  
